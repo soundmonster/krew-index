@@ -3,13 +3,13 @@ kind: Plugin
 metadata:
   name: iexec
 spec:
-  version: "v1.2.0"
+  version: "v1.2.4"
   platforms:
   - selector:
       matchExpressions:
       - {key: os, operator: In, values: [linux]}
-    uri: https://github.com/gabeduke/kubectl-iexec/releases/download/1.2.0/kubectl-iexec_1.2.0_Linux_x86_64.tar.gz
-    sha256: "3ad160c166993d2fd5b2a779a9be1c0323937f99fb0c63dd17a6ac3b92e36dc1"
+    uri: https://github.com/gabeduke/kubectl-iexec/releases/download/1.2.4/kubectl-iexec_1.2.4_Linux_x86_64.tar.gz
+    sha256: "846f3d4725012ea328c67b2bf450b8e3431bf76af4c74dcd3d65cbe31ecff3e3"
     files:
     - from: kubectl-iexec
       to: .
@@ -19,8 +19,8 @@ spec:
   - selector:
       matchExpressions:
       - {key: os, operator: In, values: [darwin]}
-    uri: https://github.com/gabeduke/kubectl-iexec/releases/download/1.2.0/kubectl-iexec_1.2.0_Darwin_x86_64.tar.gz
-    sha256: "042b069c573a5d696367c4ba73db131dff74edc9e238c2e17170ceb824151641"
+    uri: https://github.com/gabeduke/kubectl-iexec/releases/download/1.2.4/kubectl-iexec_1.2.4_Darwin_x86_64.tar.gz
+    sha256: "790afbdca08b39dc74361554639f3915127d78908dea42f2934dad9f9bd046d4"
     files:
     - from: kubectl-iexec
       to: .
